@@ -30,7 +30,6 @@ public class NomeProprio
         if (nomes.Length > 2)
         {
             inicialMeio = nomes[1];
-            // Garante que a inicial tenha um ponto, mesmo se não houver na entrada
             if (!inicialMeio.EndsWith("."))
             {
                 inicialMeio += ".";
